@@ -87,7 +87,7 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
-@media (max-width: 1440px) {
+@media (max-width: 2500px) {
 	header .logo {
 		margin: 20px 0 0 20px;
 	}
@@ -186,16 +186,9 @@ header h2 {
 	        align-items: center;
 	overflow: hidden;
 	position: relative;
-	background: url('./photos/hero.jpg') no-repeat center center;
+	background-image: url('./photos/hero.jpg');
 	background-size: cover;
-	background-attachment: fixed;
 	will-change: transform;
-	overflow: auto;
-}
-.hero::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 .hero .title {
 	font-family: 'Pinyon Script', cursive;
@@ -226,7 +219,7 @@ header h2 {
 .style-dot {
 	font-size: 40px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 2500px) {
 	.hero .title {
 		font-size: 85px;
 	}
@@ -299,9 +292,9 @@ header h2 {
 	opacity: 1;
 }
 .slide-in {
-	-webkit-transform: translate(0, 100px) scale(0.95);
-	    -ms-transform: translate(0, 100px) scale(0.95);
-	        transform: translate(0, 100px) scale(0.95);
+	-webkit-transform: translateY(100px) scale(0.95);
+	    -ms-transform: translateY(100px) scale(0.95);
+	        transform: translateY(100px) scale(0.95);
 	opacity: 0;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -424,7 +417,7 @@ header h2 {
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-@media (max-width: 1440px) {
+@media (max-width: 2500px) {
 	.about-wrap h2 {
 		font-size: 37px;
 	}
@@ -511,12 +504,6 @@ header h2 {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	overflow: auto;
-}
-.hero2::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 .hero2 h2 {
 	color: rgba(255,255,255,1.0);
@@ -697,7 +684,7 @@ header h2 {
 	text-decoration: none;
 	margin: 20px 0 0 0;
 }
-@media (max-width: 1440px) {
+@media (max-width: 2500px) {
 	.hero2 h2 {
 		font-size: 25px;
 	}
@@ -763,13 +750,6 @@ header h2 {
   background-size: cover;
   will-change: transform;
 	background-attachment: fixed;
-	overflow: auto;
-}
-/*fix buggy div with floats*/
-.hero3::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 .food {
 	display: -ms-grid;
@@ -965,7 +945,7 @@ header h2 {
 	left: 100px;
 }
 */
-@media (max-width: 1440px) {
+@media (max-width: 2500px) {
 	.menu-wrap h2 {
 		font-size: 37px;
 		padding: 0;
@@ -1104,7 +1084,7 @@ footer h2 {
 	top: 50px;
 	left: 40px;
 }
-@media(max-width: 1440px) {
+@media(max-width: 2500px) {
 	footer h2 {
 		font-size: 30px;
 		top: 25px;
